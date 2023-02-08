@@ -1,0 +1,126 @@
+#container2{
+    height: 350px;
+    width: 350px;
+    margin: 100px auto;
+    background: #f7f7f7;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+}
+h2{
+    background: #1f030c;
+    color: white;
+    margin: 0;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+h3{
+    margin: 0;
+}
+button{
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: #ad133a;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    color: #fff;
+}
+#form{
+    padding: 10px 10px;
+}
+#totaltip{
+    padding: 10px 10px;
+}
+*,
+*:before,
+*:after {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html{
+    font-size: 100%;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+    background: rgb(12, 141, 195);
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.75;
+}
+#tip-calculator{
+    width: 80%;
+    max-width: 350px;
+    padding: 1rem;
+    background: white;
+    border-radius: 0.3rem;
+}
+h1{
+    background: rgb(11, 108, 161);
+    color: #fff;
+    font-size: 27px;
+    text-align: center;
+    margin-top: -17px;
+    margin-left: -17px;
+    margin-right: -17px;
+}
+form{
+    border-top: 1px solid hsl(149, 31%, 25%);
+}
+label{
+    display: block;
+}
+input[type= "number"] {
+    width: 100%;
+    max-width: 4em;
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: (26, 64, 237);
+    border-bottom: 1px dashed black;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+#people{
+    max-width: 3em;
+}
+#percentage{
+    width: 100%;
+    margin: 2rem 0;
+    height: 10px;
+    background: hsl(193, 94%, 34%);
+    border-radius: 3px;
+}
+#percentage::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid rgb(5, 47, 156);
+    background: hsl(255, 14%, 66%);
+    cursor: pointer;
+}
+#output{
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 139, 25, 0.25);
+    padding: 10px;
+    color: rgb(9, 73, 171);
+    
+}
